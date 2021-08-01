@@ -1,5 +1,7 @@
 import './App.css';
 
+import BumperCar from './components/BumperCar';
+
 function App() {
   return (
     <div className="App">
@@ -8,6 +10,7 @@ function App() {
           mount vs render
         </p>
       </header>
+      <BumperCar />
     </div>
   );
 }
