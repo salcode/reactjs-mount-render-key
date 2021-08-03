@@ -16,6 +16,14 @@
   color: #61dafb;
 }
 
+.bumper-car {
+  border: 1px solid red;
+  height: 50px;
+  margin: 10px auto;
+  padding: 5px;
+  width: 220px;
+}
+
 .fade-out {
   animation: fadeOutAnimation ease 2s;
   animation-delay: 3s;
