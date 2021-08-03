@@ -1,5 +1,4 @@
-function BumperCar() {
-  const driver = 'sal';
+function BumperCar({driver}) {
   return (
     <div className="bumper-car">
       <strong>Bumper Car</strong>

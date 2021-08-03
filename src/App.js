@@ -10,7 +10,9 @@ function App() {
           mount vs render
         </p>
       </header>
-      <BumperCar />
+      <BumperCar
+        driver="sal"
+      />
     </div>
   );
 }
