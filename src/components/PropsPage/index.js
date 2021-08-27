@@ -25,6 +25,7 @@ export default function PropsPage({cars, drivers}) {
         Next driver
       </button>
       <br />
+      <br />
       <strong>Waiting Drivers</strong>
       <WaitingDrivers
         driverIndex={driverIndex}
