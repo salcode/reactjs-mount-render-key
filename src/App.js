@@ -51,7 +51,10 @@ function App() {
           <Switch>
             <Route
               path="/props-page"
-              component={() => <PropsPage />}
+              component={() => <PropsPage
+                cars={originalCars}
+                drivers={drivers}
+              />}
             />
             <Route
               path="/state-page"
