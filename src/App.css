@@ -29,6 +29,11 @@
   font-size: 2em;
 }
 
+.display-damage {
+  background-color: white;
+  padding: 5px;
+}
+
 .mounted-indicator {
   position: relative;
 }
