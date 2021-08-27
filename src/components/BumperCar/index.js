@@ -1,10 +1,8 @@
 function BumperCar({driver}) {
   return (
-    <div className="bumper-car">
+    <div className="bumper-car show-mount">
 
       <strong>Bumper Car</strong>
-
-      <span className="fade-out">(mount)</span>
 
       <div className="bumper-car__driver">
         {driver}

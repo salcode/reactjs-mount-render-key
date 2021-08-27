@@ -24,11 +24,19 @@
   width: 220px;
 }
 
-.fade-out {
+.show-mount {
+  position: relative;
+}
+.show-mount:before {
   animation: fadeOutAnimation ease 2s;
   animation-delay: 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  content: "(mounted)";
+  font-size: 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 @keyframes fadeOutAnimation {
