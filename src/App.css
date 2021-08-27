@@ -17,11 +17,16 @@
 }
 
 .bumper-car {
-  border: 1px solid red;
   height: 80px;
   margin: 10px auto;
   padding: 5px;
   width: 220px;
+}
+
+.bumper-car__driver {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .mounted-indicator {
