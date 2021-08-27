@@ -25,7 +25,9 @@ function App() {
       />
 
       <button
-        onClick={() => setIndex(index+1)}
+        onClick={() => setIndex(
+          (current) => ++current
+        )}
       >
         Next driver
       </button>
