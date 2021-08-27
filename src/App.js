@@ -58,7 +58,9 @@ function App() {
             />
             <Route
               path="/state-page"
-              component={() => <StatePage />}
+              component={() => <StatePage
+                initialCarsArray={originalCars}
+              />}
             />
           </Switch>
 
