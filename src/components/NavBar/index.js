@@ -7,7 +7,7 @@ export default function NavBar() {
         <li>
           <NavLink
             exact
-            to="/"
+            to="./"
           >
             Home
           </NavLink>
@@ -15,14 +15,14 @@ export default function NavBar() {
 
         <li>
           <NavLink
-            to="/props-page"
+            to="./props-page"
           >
             Props Example
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/state-page"
+            to="./state-page"
           >
             State Example
           </NavLink>
