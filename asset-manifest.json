@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactjs-mount-render-key/static/css/main.415514fe.chunk.css",
+    "main.js": "/reactjs-mount-render-key/static/js/main.1bf62005.chunk.js",
+    "main.js.map": "/reactjs-mount-render-key/static/js/main.1bf62005.chunk.js.map",
+    "runtime-main.js": "/reactjs-mount-render-key/static/js/runtime-main.17323fd2.js",
+    "runtime-main.js.map": "/reactjs-mount-render-key/static/js/runtime-main.17323fd2.js.map",
+    "static/js/2.8ebf5190.chunk.js": "/reactjs-mount-render-key/static/js/2.8ebf5190.chunk.js",
+    "static/js/2.8ebf5190.chunk.js.map": "/reactjs-mount-render-key/static/js/2.8ebf5190.chunk.js.map",
+    "static/js/3.4dc80c82.chunk.js": "/reactjs-mount-render-key/static/js/3.4dc80c82.chunk.js",
+    "static/js/3.4dc80c82.chunk.js.map": "/reactjs-mount-render-key/static/js/3.4dc80c82.chunk.js.map",
+    "index.html": "/reactjs-mount-render-key/index.html",
+    "static/css/main.415514fe.chunk.css.map": "/reactjs-mount-render-key/static/css/main.415514fe.chunk.css.map",
+    "static/js/2.8ebf5190.chunk.js.LICENSE.txt": "/reactjs-mount-render-key/static/js/2.8ebf5190.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17323fd2.js",
+    "static/js/2.8ebf5190.chunk.js",
+    "static/css/main.415514fe.chunk.css",
+    "static/js/main.1bf62005.chunk.js"
+  ]
+}
