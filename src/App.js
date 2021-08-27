@@ -7,7 +7,15 @@ const drivers = [
   'abby',
   'barry',
   'cat',
-  'danny',
+  'diane',
+  'elwood',
+  'frank',
+  'greg',
+  'hank',
+  'issac',
+  'jr',
+  'kate',
+];
 ];
 
 function App() {
