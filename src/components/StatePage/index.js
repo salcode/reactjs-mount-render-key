@@ -6,12 +6,12 @@ export default function StatePage({initialCarsArray}) {
   return (
     <div>
       {
-        cars.map((car, i) => (
-          <BumperCar
+        cars.map((car, i) => {
+          return <BumperCar
             color={car.color}
             key={i}
           />
-        ))
+        })
       }
       <br />
       <button
