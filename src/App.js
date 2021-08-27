@@ -12,6 +12,7 @@ const drivers = [
 
 function App() {
   const [index, setIndex] = useState(0);
+  const [myKey, setKey] = useState(0);
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +23,7 @@ function App() {
 
       <BumperCar
         driver={drivers[index] ?? '(empty)'}
+        key={myKey}
       />
 
       <button
@@ -30,6 +32,12 @@ function App() {
         )}
       >
         Next driver
+      </button>
+
+      <button
+        onClick={() => setKey(myKey+1)}
+      >
+        Key ({myKey}): Click to Increment
       </button>
     </div>
   );
