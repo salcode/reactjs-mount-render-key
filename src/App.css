@@ -24,15 +24,11 @@
   width: 220px;
 }
 
-.show-mount {
+.mounted-indicator {
   position: relative;
 }
-.show-mount:before {
-  animation: fadeOutAnimation ease 2s;
-  animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  content: "(mounted)";
+.mounted-indicator:before {
+  content: "(mounted.)";
   font-size: 0.5em;
   position: absolute;
   right: 0;
