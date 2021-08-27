@@ -16,6 +16,20 @@ const drivers = [
   'jr',
   'kate',
 ];
+
+const originalCars = [
+  {
+    color: 'red',
+  },
+  {
+    color: 'green',
+  },
+  {
+    color: 'purple',
+  },
+  {
+    color: 'blue',
+  },
 ];
 
 function App() {
