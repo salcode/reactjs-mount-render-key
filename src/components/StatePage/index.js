@@ -1,5 +1,26 @@
-export default function StatePage() {
+import { useState } from 'react';
+import BumperCar from '../StatefulBumperCar';
+
+export default function StatePage({initialCarsArray}) {
+  const [cars, setCars] = useState(initialCarsArray);
   return (
-    <div>State maintain during reorder based on keys</div>
+    <div>
+      {
+        cars.map((car, i) => (
+          <BumperCar
+            color={car.color}
+            key={i}
+          />
+        ))
+      }
+      <br />
+      <button
+        onClick={() => setCars(
+          (cars) => [...cars].sort( () => .5 - Math.random() )
+        )}
+      >
+        Shuffle Cars
+      </button>
+    </div>
   );
 }
