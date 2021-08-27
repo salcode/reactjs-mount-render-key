@@ -25,15 +25,19 @@ const drivers = [
 const originalCars = [
   {
     color: 'red',
+    id: 'car1',
   },
   {
     color: 'green',
+    id: 'car2',
   },
   {
     color: 'purple',
+    id: 'car3',
   },
   {
     color: 'blue',
+    id: 'car4',
   },
 ];
 
