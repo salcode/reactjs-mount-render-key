@@ -1,10 +1,26 @@
+import { useState } from 'react';
 import Mounted from '../Mounted';
 
 export default function StatefulBumperCar({color}) {
+  const [damage, setDamage] = useState(0);
   return (
     <div className="bumper-car" style={{backgroundColor: color}}>
       <Mounted />
       <strong>Bumper Car</strong>
+      <br />
+      <button
+        onClick={() => {
+          setDamage(
+            (currentDamage) => currentDamage < 100 ? currentDamage + 10 : 100
+          );
+        }}
+      >
+        Add Damage
+      </button>
+      <div className="display-damage">
+        Current Damage: {damage}%
+      </div>
+
     </div>
   );
 }
