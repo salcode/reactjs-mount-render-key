@@ -7,9 +7,11 @@ export default function StatePage({initialCarsArray}) {
     <div>
       {
         cars.map((car, i) => {
+          const key = i;
           return <BumperCar
             color={car.color}
-            key={i}
+            key={key}
+            myKey={key}
           />
         })
       }
